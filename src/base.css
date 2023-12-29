@@ -1,0 +1,17 @@
+/* ----- FONT-WEIGHT ----- */
+
+.extra-bold {
+    font-weight: 900;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semi-bold {
+    font-weight: 500;
+}
+
+.light {
+    font-weight: 300;
+}
