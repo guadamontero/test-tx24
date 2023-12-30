@@ -1,8 +1,8 @@
 import { colors, sizes } from "../../theme";
 import { MenuContainer, ItemContainer, ItemText } from "./MenuNav.styles";
-import DashboardIcon from "../Icons/DashboardIcon";
-import BellIcon from "../Icons/BellIcon";
-import HelpIcon from "../Icons/HelpIcon";
+import DashboardIcon from "../icons/DashboardIcon";
+import BellIcon from "../icons/BellIcon";
+import HelpIcon from "../icons/HelpIcon";
 import logo from "../../assets/logo.svg";
 
 const MenuNav = () => {
