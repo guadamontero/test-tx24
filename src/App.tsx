@@ -3,7 +3,7 @@ import TradePage from "./pages/TradePage";
 
 const App = (): JSX.Element => {
   return (
-    <HashRouter hashType="noslash">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<TradePage />} />
       </Routes>

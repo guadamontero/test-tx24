@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { TextProps } from "./types";
 
 export const colors = {
-  green: "#74BF8C",
   gray: "#777E8F",
-  red: "#ED8184",
+  lightGreen: "#74BF8C",
+  lightRed: "#ED8184",
 };
 
 export const sizes = {
@@ -24,6 +24,20 @@ export const Text = styled.div<TextProps>`
         return "font-weight: 300;";
       default:
         return "font-weight: normal;";
+    }
+  }}
+  ${({ fontSize }) => {
+    switch (fontSize) {
+      case "large":
+        return "font-size: 1.5rem;";
+      case "medium":
+        return "font-size: 1.2rem;";
+      case "small":
+        return "font-size: .9rem;";
+      case "tiny":
+        return "font-size: .8rem;";
+      default:
+        return "font-size: 1rem;";
     }
   }}
 `;
